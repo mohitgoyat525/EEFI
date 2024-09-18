@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Neue Machina";
+  src: url("../fonts/NeueMachina-Regular.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Neue Machina", sans-serif;
+}
