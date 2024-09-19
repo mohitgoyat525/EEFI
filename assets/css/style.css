@@ -17,3 +17,8 @@ body {
   background-repeat: no-repeat;
  background-size: cover;
 }
+.bg_time_line-img{
+  background-image: url(/assets/images/png/bg-img-timeline-with-color.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
