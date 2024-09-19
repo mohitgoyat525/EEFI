@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-.plus_jhatkasans{
-   font-family: "Plus Jakarta Sans", sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
   font-family: "Neue Machina";
   src: url("../fonts/NeueMachina-Regular.ttf") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
-
 body {
   font-family: "Neue Machina", sans-serif;
 }
@@ -17,8 +14,16 @@ body {
   background-repeat: no-repeat;
  background-size: cover;
 }
-.bg_time_line-img{
-  background-image: url(/assets/images/png/bg-img-timeline-with-color.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.plus_jhatkasans{
+   font-family: "Plus Jakarta Sans", sans-serif;
 }
+.railway_font{
+      font-family: "Raleway", sans-serif;
+}
+.bg_time-line-img{
+    background-image: url(/assets/images/png/bg-timeline-img-with-lines.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
