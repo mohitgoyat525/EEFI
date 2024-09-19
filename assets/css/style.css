@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+.plus_jhatkasans{
+   font-family: "Plus Jakarta Sans", sans-serif;
+}
 @font-face {
   font-family: "Neue Machina";
   src: url("../fonts/NeueMachina-Regular.ttf") format("woff2");
@@ -7,4 +11,9 @@
 
 body {
   font-family: "Neue Machina", sans-serif;
+}
+.bear_bull{
+  background-image: url(/assets/images/svg/bg-image-bull-bear.svg);
+  background-repeat: no-repeat;
+ background-size: cover;
 }

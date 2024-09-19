@@ -9,6 +9,7 @@
       href="/assets/images/svg/EEProtocol transparent (light stroke).svg"
       type="image/x-icon"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/assets/css/style.css" />
     <script>
@@ -25,9 +26,10 @@
             },
           },
           extend: {
-            colors: {
-              clifford: "#da373d",
-            },
+            backgroundImage: {
+        
+        'bear_bg': "url('./assets/images/svg/bg-image-bull-bear.svg')",
+      }
           },
         },
       };
@@ -67,7 +69,7 @@
                 </div>
                 <div
                   id="mobile_view"
-                  class="max-lg:fixed flex justify-center items-center max-lg:bg-blue-700 max-lg:w-full max-lg:h-full max-lg:-top-full max-lg:-right-full transition-all duration-300"
+                  class="max-lg:fixed flex justify-center items-center max-lg:bg-blue-900 max-lg:w-full max-lg:h-full max-lg:-top-full max-lg:-right-full transition-all duration-300"
                 >
                   <ul
                     class="flex gap-6 max-lg:flex-col items-center justify-center"
@@ -145,22 +147,22 @@
       <img
         src="/assets/images/svg/bg-blue-layer.svg"
         alt="shadow"
-        class="absolute top-0 left-0  z-20"
+        class="absolute top-0 left-0  z-20 max-sm:min-h-screen"
       />
-      <img src="/assets/images/png/Spaceman Collage copy 2 (only show images) 1.png" alt="Spaceman_bg " class="absolute -left-[15%]">
+      <img src="/assets/images/png/spaceman-collage-.bg.png" alt="Spaceman_bg " class="absolute right-0">
     <div class="max-w-[1140px] relative z-30 mx-auto">
             <div class="flex flex-wrap ">
                 <div class="w-6/12 max-lg:w-full flex flex-col justify-center">
                    
-                    <h1 class="max-w-[428px] text-[85px] max-lg:text-7xl max-md:text-6xl max-sm:text-5xl  leading-[112%] ffNeueMachinaRegular text-white">
+                    <h1 class="max-w-[428px] text-[85px] max-lg:text-7xl max-md:text-6xl max-sm:text-5xl  leading-[112%] ffNeueMachinaRegular text-white max-lg:px-4">
                         BUILIDING ELASTIC PROTOCOL
                     </h1>
-                    <p class="leading-[150%] font-normal text-white max-w-[528px] mt-[30px] opacity-[70%]">
+                    <p class=" max-sm:px-4 leading-[150%] font-normal text-white max-w-[528px] mt-[30px] opacity-[70%] text-base max-sm:text-sm max-lg:px-4">
                         An ecosystem of unique yield strategies that help you earn
                         yield, amplify, and stretch it across all market conditions
                     </p>
                     <div class="mt-[26px]">
-                        <a class="underline text-white pt-[26px] font-bold" href="/">Audited by Omniscia
+                        <a class="underline text-white pt-[26px] font-bold max-lg:px-4" href="/">Audited by Omniscia
                         </a>
                     </div>
                 </div>
@@ -171,6 +173,36 @@
         </div>
 
     </section>
+    
+    <section class="relative   bear_bull overflow-hidden">
+      <h2 class=" relative z-10 text-white plus_jhatkasans text-center max-2xl:text-[52px] max-lg:text-[45px] max-sm:text-[23px] text-[52px] font-extrabold leading-[120%] py-6 ">Amplify and stretch gains</h2>
+      <div class="container">
+      <div class="flex ">
+      <div class="max-w-[649px] bull_img"  data-aos="fade-right"  data-aos-easing="linear"
+     data-aos-duration="1500">
+        <img src="/assets/images/webp/bull-img.webp" alt="bull" class="">
+      </div>
+       <div class="max-w-[532px] max-2xl:mt-7 mt-7  bear_img" data-aos="fade-left"  data-aos-easing="linear"
+     data-aos-duration="1500">
+        <img src="/assets/images/webp/bear.webp" alt="bear" class="">
+      </div>
+      
+      </div>
+      
+           <div class="flex items-center justify-center ">
+      <img src="/assets/images/webp/boy-stand.webp" alt="space-man-stand" class="absolute bottom-0">
+      </div>
+
+      <div class="flex items-center justify-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] mt-[101px]">
+        <p class="text-center text-white max-w-[555px] text-sm font-normal leading-[157%] mx-auto">We take a different balanced approach to finding and creating yield opportunities in the everchanging crypto market. Our yield strategies help users stay protected and hedged during bear markets and amplify yield during bull markets without resorting to leverage or other dangerous techniques.</p>
+      </div>
+ 
+      </div>
+    </section>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/assets/js/app.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
