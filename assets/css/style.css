@@ -31,3 +31,8 @@ body {
     background-size: cover;
 }
 
+.bg_last_line{
+  background-image: url(/assets/images/png/laset-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
