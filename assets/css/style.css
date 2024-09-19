@@ -25,5 +25,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.footer_bg_img{
+      background-image: url(/assets/images/png/foot-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
