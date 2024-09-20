@@ -11,8 +11,7 @@ body {
 }
 .bear_bull{
   background-image: url(/assets/images/svg/bg-image-bull-bear.svg);
-  background-repeat: no-repeat;
- background-size: cover;
+
 }
 .plus_jhatkasans{
    font-family: "Plus Jakarta Sans", sans-serif;
@@ -22,17 +21,16 @@ body {
 }
 .bg_time-line-img{
     background-image: url(/assets/images/png/bg-timeline-img-with-lines.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 .footer_bg_img{
       background-image: url(/assets/images/png/foot-bg-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .bg_last_line{
   background-image: url(/assets/images/png/laset-bg-img.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+
+}
+.sm_screen_bg_img{
+  background-image: url(/assets/images/png/bg-mobile-version.png);
 }
