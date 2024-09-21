@@ -10,8 +10,7 @@ body {
   font-family: "Neue Machina", sans-serif;
 }
 .bear_bull{
-  background-image: url(/assets/images/svg/bg-image-bull-bear.svg);
-
+  background-image: url(/assets/images/webp/bg-image-bull-bear.webp);
 }
 .plus_jhatkasans{
    font-family: "Plus Jakarta Sans", sans-serif;
@@ -20,17 +19,17 @@ body {
       font-family: "Raleway", sans-serif;
 }
 .bg_time-line-img{
-    background-image: url(/assets/images/png/bg-timeline-img-with-lines.png);
+    background-image: url(/assets/images/webp/bg-timeline-img-with-liness.webp);
    
 }
 .footer_bg_img{
-      background-image: url(/assets/images/png/foot-bg-img.png);
+      background-image: url(/assets/images/webp/foot-bg-img.webp);
 }
 
 .bg_last_line{
-  background-image: url(/assets/images/png/laset-bg-img.png);
+  background-image: url(/assets/images/webp/laset-bg-img.webp);
 
 }
 .sm_screen_bg_img{
-  background-image: url(/assets/images/png/bg-mobile-version.png);
+  background-image: url(/assets/images/webp/bg-mobile-version.webp);
 }
