@@ -1,12 +1,3 @@
-// window.addEventListener("DOMContentLoaded", () => {
-//   const menuBtn = document.querySelector("#menu-btn");
-//   const dropDown = document.querySelector("#drop-down");
-//   menuBtn.addEventListener("click", () => {
-//     dropDown.classList.toggle("hidden");
-//     dropDown.classList.toggle("flex");
-//   });
-// });
-
 
 const navmenu = () => {
   document.getElementById("mobile_view").classList.toggle("max-lg:top-0");

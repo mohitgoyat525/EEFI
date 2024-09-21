@@ -33,3 +33,6 @@ body {
 .sm_screen_bg_img{
   background-image: url(/assets/images/webp/bg-mobile-version.webp);
 }
+.bg-cloud{
+  background-image: url(/assets/images/webp/Clouds\ bottom.webp);
+}
