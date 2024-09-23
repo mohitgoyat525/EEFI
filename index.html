@@ -69,7 +69,7 @@
       </div>
       <header>
         <div class="container">
-          <nav>
+          <nav class="pt-5">
             <div class="max-w-[1114px] relative z-50 mx-auto">
               <div class="justify-between flex items-center">
                 <div>
@@ -86,15 +86,15 @@
                 >
                   <span
                     id="nav_line_1"
-                    class="w-full h-1 bg-black origin-left transition-all duration-300 rounded-md"
+                    class="w-full h-1 bg-white origin-left transition-all duration-300 rounded-md"
                   ></span>
                   <span
                     id="nav_line_out_side"
-                    class="w-full h-1 bg-black transition-all duration-300 rounded-md"
+                    class="w-full h-1 bg-white transition-all duration-300 rounded-md"
                   ></span>
                   <span
                     id="nav_line_2"
-                    class="w-full h-1 transition-all duration-300 bg-black origin-left rounded-md"
+                    class="w-full h-1 transition-all duration-300 bg-white origin-left rounded-md"
                   ></span>
                 </div>
                 <div
@@ -106,53 +106,60 @@
                   >
                     <li>
                       <a
-                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-black pb-0.5"
+                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-white pb-0.5"
                         href="/"
                         >About</a
                       >
                     </li>
                     <li>
                       <a
-                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-black pb-0.5"
+                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-white pb-0.5"
                         href="/"
                         >IBO Event</a
                       >
                     </li>
                     <li>
                       <a
-                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-black pb-0.5"
+                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-white pb-0.5"
                         href="/"
                         >EEFI Tokenomics</a
                       >
                     </li>
                     <li>
                       <a
-                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-black pb-0.5"
+                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-white pb-0.5"
                         href="/"
                         >Team</a
                       >
                     </li>
                     <li>
                       <a
-                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-black pb-0.5"
+                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-white pb-0.5"
                         href="/"
                         >Partners</a
                       >
                     </li>
                     <li>
                       <a
-                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-black pb-0.5"
+                        class="text-white relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-white pb-0.5"
                         href="/"
                         >Roadmap</a
                       >
                     </li>
-                    <li class="">
-                      <a
-                        class="flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:left-0 after:h-0.5 after:bg-black pb-0.5 text-white"
-                        href="/"
-                        >More
-                      </a>
-                    </li>
+                    <li class="relative group">
+                                    <a class="flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0  after:h-0.5 after:bg-white pb-0.5 text-white "
+                                        href="#">
+                                        More
+                                        <img class="mt-1" src="./assets/images/svg/drop-down-icon.svg"
+                                            alt="DropDown_hero" />
+                                    </a>
+                                    <ul class="absolute left-0 hidden group-hover:block bg-black text-white">
+                                        <li><a class="block px-4 py-2 hover:bg-blue-200" href="#bull">About-Us </a></li>
+                                        <li><a class="block px-4 py-2 hover:bg-blue-200" href="#roadmap">Contact-Us</a>
+                                        </li>
+                                        <li><a class="block px-4 py-2 hover:bg-blue-200" href="#footer">Email</a></li>
+                                    </ul>
+                                </li>
                     <li class="lg:hidden">
                       <button
                         class="py-4 px-8 rounded-lg border border-white text-white"
@@ -164,7 +171,7 @@
                 </div>
                 <div class="max-lg:hidden">
                   <button
-                    class="py-3 px-8 max-lg:hidden rounded-lg border lg:mr-2 hover:bg-[#1843BF] hover:text-white transition-all duration-300 border-[#1843BF] text-[#1743C0] "
+                    class="py-3 px-8 max-lg:hidden rounded-lg border lg:mr-2 hover:bg-[#1843BF] hover:text-white transition-all duration-300 max-2xl:border-[#1843BF]  max-xl:border-white max-xl:text-white  border-white   max-2xl:text-[#1743C0] text-white  "
                   >
                     Enter App
                   </button>
@@ -198,16 +205,16 @@
             </div>
         </div>
         <div class="max-xl:hidden ">
-          <img src="/assets/images/svg/dots-group.svg" alt="dots" class="absolute top-3 right-7">
+          <img src="/assets/images/svg/dots-group.svg" alt="dots" class="absolute top-11 right-7">
         </div>
     </section>
     <!-- ---bear-bull section -->
     <section class="pb-16 max-sm:pb-0 relative -mb-36 bear_bull overflow-hidden  bg-cover bg-no-repeat">
       <div class="bg-black">
-      <h2 class=" relative z-10 text-white plus_jhatkasans text-center max-2xl:text-[52px] max-lg:text-[45px] max-sm:text-[23px] text-[52px] font-extrabold leading-[120%] max-lg:py-6 max-md:py-1 py-4">Amplify and STRETCH GAINS</h2>
+      <h2 class=" relative z-10 text-white plus_jhatkasans text-center max-2xl:text-[52px] max-lg:text-[45px] max-sm:text-[23px] text-[52px] font-extrabold leading-[120%] max-lg:py-6 max-md:py-1 py-4 pt-8">Amplify and STRETCH GAINS</h2>
       </div>
       <div class="container">
-      <div class="flex max-2xl:pt-10 pt-48">
+      <div class="flex max-2xl:pt-10 pt-80">
       <div class="max-w-[649px] bull_img -mt-[50px] max-md:mt-6 "  data-aos="fade-right"  data-aos-easing="linear"
      data-aos-duration="1500">
         <img src="/assets/images/webp/bull-img.webp" alt="bull" >
@@ -219,7 +226,7 @@
       
     </div>
      <div class="flex items-center justify-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] max-2xl:mt-[55px] mt-[150px] z-20">
-        <p class=" max-md:hidden text-center text-white max-w-[555px] text-sm font-normal leading-[157%] mx-auto">We take a different balanced approach to finding and creating yield opportunities in the everchanging crypto market. Our yield strategies help users stay protected and hedged during bear markets and amplify yield during bull markets without resorting to leverage or other dangerous techniques.</p>
+        <p class=" max-md:hidden text-center text-white max-w-[555px] text-sm font-normal leading-[157%] mx-auto pt-[85px] max-2xl:pt-[48px]">We take a different balanced approach to finding and creating yield opportunities in the everchanging crypto market. Our yield strategies help users stay protected and hedged during bear markets and amplify yield during bull markets without resorting to leverage or other dangerous techniques.</p>
       </div>
   <div class="flex items-center justify-center ">
       <img src="/assets/images/webp/boy-stand.webp" alt="space-man-stand" class="absolute bottom-12 max-md:bottom-28 max-sm:bottom-28  w-[100px] max-md:w-[60px] ">
@@ -234,17 +241,18 @@
     
     </section>
     <!-- ---time-line-- -->
-       <section class=" pt-36 -mt-36 bg_time-line-img bg-cover bg-center bg-no-repeat  pb-12 flex items-center max-md:justify-normal justify-center overflow-hidden">
+       <section class=" pt-36 -mt-40 bg_time-line-img bg-cover bg-center bg-no-repeat  pb-12 flex items-center max-md:justify-normal justify-center overflow-hidden">
         <div class="container text-white px-3 pb-16">
-            <h2 class="text-center text-[46px] font-bold mb-[117px] max-sm:mb-4">Roadmap</h2>
+            <h2 class="text-center text-[46px] font-bold mb-[117px] max-sm:mb-4 pt-7">Roadmap</h2>
             <div class="w-full flex flex-wrap justify-between relative gap-y-6 pb-9">
-                <div class="h-full w-1 bg-[#4273FF] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2 top-1">
+                <div class="h-full w-[2px]  bg-[#4273FF] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2 top-2">
                 </div>
                 <div class="lg:w-6/12 w-full">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div data-aos="zoom-in-right"  class="max-w-[373px] bg-[#1643C31A] ms-auto me-[90px] border border-[#1643C3] rounded-lg py-9 px-4 max-[390px]:mx-4 max-lg:mx-auto">
                         
@@ -260,11 +268,12 @@
                 </div>
                 <div class="w-6/12 max-lg:hidden"></div>
                 <div class="w-6/12 max-lg:hidden"></div>
-                <div class="lg:w-6/12 w-full">
+                <div class="lg:w-6/12 w-full lg:-mt-[33px]">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div data-aos="zoom-in-left"  class="py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3]  rounded-lg mr-auto ml-[90px]  max-[390px]:mx-4  max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">2023 Beginning</p>
@@ -277,11 +286,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="lg:w-6/12 w-full">
+                <div class="lg:w-6/12 w-full lg:-mt-[36px]">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div data-aos="zoom-in-right"  class="py-9 px-4 bg-[#1643C31A] max-w-[373px] border border-[#1643C3] rounded-lg ms-auto me-[90px]  max-[390px]:mx-4  max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">Q3 2023</p>
@@ -295,11 +305,12 @@
                 </div>
                 <div class="w-6/12 max-lg:hidden"></div>
                 <div class="w-6/12 max-lg:hidden"></div>
-                <div class="lg:w-6/12 w-full">
+                <div class="lg:w-6/12 w-full lg:-mt-[34px]">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div data-aos="zoom-in-left"  class="mr-auto ml-[90px] py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] rounded-lg max-[390px]:mx-4  max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">Q4 2023</p>
@@ -316,11 +327,12 @@
                 </div>
                 <div class="w-6/12 max-lg:hidden"></div>
                 <div class="w-6/12 max-lg:hidden"></div>
-                <div class="lg:w-6/12 w-full">
+                <div class="lg:w-6/12 w-full lg:-mt-[55px]">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div data-aos="zoom-in-right"  class="ms-auto me-[90px] py-9 px-4 bg-[#1643C31A] max-w-[373px] border border-[#1643C3] rounded-lg max-[390px]:mx-4  max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">Q1 2024</p>
@@ -340,11 +352,12 @@
                 </div>
                 <div class="w-6/12 max-lg:hidden"></div>
                 <div class="w-6/12 max-lg:hidden"></div>
-                <div class="lg:w-6/12 w-full">
+                <div class="lg:w-6/12 w-full lg:-mt-[34px]">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div data-aos="zoom-in-left"  class="max-w-[373px] bg-[#1643C31A] border border-[#1643C3] rounded-lg py-9 px-4 mr-auto ml-[90px] max-[390px]:mx-4  max-lg:mx-auto">
                         <p class="text-xl font-medium  plus_jhatkasans leading-[120%]">Q2 2024</p>
@@ -358,11 +371,12 @@
                 </div>
                 <div class="w-6/12 max-lg:hidden"></div>
                 <div class="w-6/12 max-lg:hidden"></div>
-                <div class="lg:w-6/12 w-full">
+                <div class="lg:w-6/12 w-full lg:-mt-[60px]">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div data-aos="zoom-in-right"  class="ms-auto me-[90px] py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] rounded-lg  max-[390px]:mx-4  max-lg:mx-auto">
                         <p class="text-xl font-medium  plus_jhatkasans leading-[120%]">Q3 2024</p>
@@ -375,11 +389,12 @@
                 </div>
                 <div class="w-6/12 max-lg:hidden"></div>
                 <div class="w-6/12 max-lg:hidden"></div>
-                <div class="lg:w-6/12 w-full">
+                <div class="lg:w-6/12 w-full lg:-mt-[32px]">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div data-aos="zoom-in-left" class="py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] mr-auto ml-[90px] rounded-lg max-[390px]:mx-4 max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">Q4 2024</p>
@@ -389,11 +404,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="lg:w-6/12 w-full">
+                <div class="lg:w-6/12 w-full lg:-mt-[36px]">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div  data-aos="zoom-in-right" class="py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] ms-auto me-[90px] rounded-lg max-[390px]:mx-4 max-lg:mx-auto">
                         <p class="text-xl font-medium  plus_jhatkasans leading-[120%]">Q1 2025</p>
@@ -406,11 +422,12 @@
                 </div>
                 <div class="w-6/12 max-lg:hidden"></div>
                 <div class="w-6/12 max-lg:hidden"></div>
-                <div class="lg:w-6/12 w-full">
+                <div class="lg:w-6/12 w-full lg:-mt-[40px]">
                     <div
-                        class="w-5 h-5 bg-[#4273FF] rounded-full border-[4px] border-[#274494] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-2 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
                     <div data-aos="zoom-in-left"  class="py-9 px-4 border border-[#1643C3] max-w-[373px] rounded-lg bg-[#1643C31A] mr-auto ml-[90px] max-[390px]:mx-4 max-lg:mx-auto">
                         <p class="text-xl font-medium  plus_jhatkasans leading-[120%]">Q2 2025</p>
@@ -426,50 +443,50 @@
     <!-- --footer-section--- -->
     <section class="lg:hidden bg-cover bg-no-repeat sm_screen_bg_img">
        <div class="lg:hidden">
-          <p class="text-3xl font-extrabold text-white leading-[120%] text-center pt-8">(E,E) Game Theory: An UPGRADE from (3,3)</p>
+          <p class="text-3xl font-extrabold text-white leading-[120%] px-4 pt-8">(E,E) Game Theory: An UPGRADE from (3,3)</p>
           <p class="text-white  leading-[160%] italic text-base font-normal pt-6 px-4">Remember (3,3) at its core was about social coordination. Or, people working together to achieve a common outcome or goal. (E,E) is the same. But with (E,E) people are working together not to grow a robust treasury that would back a decentralized stablecoin but instead to establish the first ever decentralized amplified yield token… $EEFI. A token that can produce yield in any market condition.</p>
 
-          <p class="text-white  leading-[160%] italic text-base font-normal pt-6 px-4">To achieve this (E,E) has everyone work together by interacting with and supporting its ecosystem flywheel: Vaults, Bonds, Markets and other components. Interaction with the (E,E) Flywheel will help build a treasury of what we term high quality “growth assets”. Assets that are revenue bearing, interest bearing, Real Yield bearing or Rebase bearing. Where the ‘growth’ aka the yields of these assets are used to act as long term decentralized leverage on EEFI’s value. This is (E,E). This is sustainable. This is the UPGRADE.</p>
+          <p class="text-white  leading-[160%] italic text-base font-normal  px-4">To achieve this (E,E) has everyone work together by interacting with and supporting its ecosystem flywheel: Vaults, Bonds, Markets and other components. Interaction with the (E,E) Flywheel will help build a treasury of what we term high quality “growth assets”. Assets that are revenue bearing, interest bearing, Real Yield bearing or Rebase bearing. Where the ‘growth’ aka the yields of these assets are used to act as long term decentralized leverage on EEFI’s value. This is (E,E). This is sustainable. This is the UPGRADE.</p>
         </div>
-          <div class="max-w-[530px] bg_last_line h-[815px] mx-auto relative lg:hidden bg-cover bg-no-repea max-sm:hidden">
+          <div class="max-w-[530px] bg_last_line h-[815px] mx-auto relative lg:hidden bg-cover bg-no-repea max-sm:hidden ">
                 <div class="mt-16 max-w-[129px] bg-white rounded border-[0.64px] border-solid border-[#FFFFFF29] flex items-center justify-center p-2 mx-auto">
-              <div class="max-w-[116px] bg-[#1643C3] border-[0.64px] border-[#FFFFFF29] rounded py-5 px-6">
+              <div class="max-w-[116px] bg-[#1643C3] border-[0.64px]  border-[#FFFFFF29] rounded py-5 px-6">
                 <p class="font-extrabold text-white text-2xl leading-[120%] text-center ">YOU</p>
                 <p class="text-white font-normal text-sm pt-2 railway_font">(Flywheel)</p>
               </div>
                
             </div> 
              <p class="text-white text-center ps-24 font-extrabold text-sm railway_font">Interact</p>
-              <div class="flex gap-[33.6px]   absolute top-40">
-                <div class="bg-white max-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
+              <div class="flex gap-[24.6px]   absolute top-40">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/eefi-bond.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
                   <p class="pt-2 text-center font-extrabold text-base px-6">EEFI Bonds</p>
                   <p class="pt-1 text-center pb-1 px-3 railway_font"> Purchase. Lock up. Get Discount</p>
                 </div>
-                <div class="bg-white max-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/lock.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
                   <p class="pt-2 text-center font-extrabold text-base px-[52px]">Vault  </p>
                   <p class="pt-1 text-center pb-1 px-[34] railway_font"> Deposit + Earn</p>
                 </div>
-                <div class="bg-white max-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md ">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md ">
                   <img src="/assets/images/svg/copy-icon.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
                   <p class="pt-2 text-center font-extrabold text-base px-6">LP Positions </p>
                   <p class="pt-1 text-center pb-1 px-3 railway_font"> Yield Farming</p>
                 </div>
               </div>
               <!-- second-row -->
-                <div class="flex gap-[33.6px]  absolute top-80">
-                <div class="bg-white w-[160px] drop-shadow-[4.33px]    rounded-md">
+                <div class="flex gap-[24.6px]  absolute top-80">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]    rounded-md">
                   <img src="/assets/images/svg/fundeing-icon.svg" alt="fundeing-icon" class="max-w-full mx-auto pt-4 ">
                   <p class="pt-2 text-center font-extrabold text-base px-2 max-w-[144px] pb-4">Funding raised acquires Growth assets</p>
                  
                 </div>
-                <div class="bg-white max-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/goal-icon.svg" alt="goal" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-[52px]">OHM Treasury Strategy </p>
+                  <p class="pt-2 text-center font-extrabold text-base px-[22px]">OHM Treasury Strategy </p>
                   <p class="pt-1 text-center pb-1 px-[34] railway_font"> Deposit + Earn</p>
                 </div>
-                <div class="bg-white max-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md ">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md ">
                   <img src="/assets/images/svg/market-icon.svg" alt="market" class="max-w-full mx-auto pt-4 ">
                   <p class="pt-2 text-center font-extrabold text-base px-6">Markets </p>
                   <p class="pt-1 text-center pb-1 px-3 railway_font">Trade + Arb (Fees)</p>
@@ -477,12 +494,12 @@
               </div>
               <!-- third-row -->
                 <div class="flex gap-9 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] mt-[161px] -ms-[5px] ">
-                <div class="bg-white w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/growth-icon.svg" alt="growth" class="max-w-full mx-auto pt-[18px] ">
                   <p class="pt-4 text-center font-extrabold text-base px-[10px] pb-4 max-w-[122px] mx-auto">Yield From  Growth Assets</p>
                   
                 </div>
-                <div class="bg-white w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/shield-icon.svg" alt="shield" class="max-w-full mx-auto pt-4 ">
                   <p class="pt-2 text-center font-extrabold text-base px-4 pb-4">Fees. Revenue. Yield to Treasury</p>
                 
@@ -491,7 +508,7 @@
               </div>
               <!-- fourth-box -->
                 <div class="flex gap-6 absolute bottom-0 left-[180px]">
-                <div class="bg-white w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/firebase.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
                   <p class="pt-2 text-center font-extrabold text-base px-4">EEFI Furnace </p>
                   <p class="pt-1 text-center pb-9 px-[11px] railway_font"> Buy + Burn EEFI</p>
@@ -506,7 +523,7 @@
                         src="./assets/images/svg/sm-screen-bg-lines.svg" alt="lines">
                    <div class="relative">     
                     <div
-                        class="bg-[#1643C3] sm:max-w-[129px] max-w-[114px]  border border-white rounded sm:py-5 py-[17px] mx-auto sm:mb-[76px] sm:mt-[76px] mb-16">
+                        class="bg-[#1643C3] border-[6px]   sm:max-w-[129px] max-w-[114px]  border-white rounded sm:py-5 py-[17px] mx-auto sm:mb-[76px] sm:mt-[76px] mb-16">
                         <p class="text-center sm:text-2xl text-xl text-white font-extrabold ">YOU</p>
                         <p class="text-center text-sm font-normal text-white railway_font">(Flywheel)</p>
                     </div>
@@ -518,20 +535,20 @@
                             <div
                                 class="  w-[103px]  h-[138px] text-center px-2 sm:py-[15px] py-3  bg-white shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;] rounded-[5.2px]">
                                 <img class="mx-auto" src="./assets/images/svg/eefi-bond.svg" alt="bond">
-                                <p class="font-extrabold sm:text-base text-sm leading-[120%] pt-2"> EEFI
+                                <p class="font-extrabold sm:text-base text-sm leading-[160%] pt-2"> EEFI
                                     Bonds</p>
                                 <p class="font-normal text-sm leading-[120%] pt-1 railway_font "> Purchase. Lock up. Get Discount</p>
                             </div>
                             <div
                                 class="  w-[103px]  h-[138px] text-center px-2 sm:py-[15px] py-3 max-w-[160px] bg-white shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;] rounded-[5.2px]">
                                 <img class="mx-auto" src="./assets/images/svg/lock.svg" alt="lock">
-                                <p class="font-extrabold sm:text-base text-sm leading-[120%] pt-2">Vault</p>
+                                <p class="font-extrabold sm:text-base text-sm leading-[160%] pt-2">Vault</p>
                                 <p class="font-normal text-sm leading-[120%] pt-1 railway_font">Deposit + Earn</p>
                             </div>
                             <div
                                 class="  w-[103px]   h-[138px] text-center px-2 sm:py-[15px] py-3 max-w-[160px] bg-white shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;] rounded-[5.2px]">
                                 <img class="mx-auto" src="./assets/images/svg/copy-icon.svg" alt="copy">
-                                <p class="font-extrabold sm:text-base text-sm leading-[120%] pt-2"> LP
+                                <p class="font-extrabold sm:text-base text-sm leading-[160%] pt-2"> LP
                                     Positions </p>
                                 <p class="font-normal text-sm leading-[120%] pt-1 railway_font"> Yield Farming</p>
                             </div>
@@ -540,20 +557,20 @@
                             <div
                                 class="  w-[103px]  h-[138px] text-center px-2 sm:py-[15px] py-3 max-w-[160px] bg-white shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;] rounded-[5.2px]">
                                 <img class="mx-auto" src="./assets/images/svg/fundeing-icon.svg" alt="fundeing-icon">
-                                <p class="font-extrabold sm:text-base text-sm leading-[120%]  pt-2">  Funding
+                                <p class="font-extrabold sm:text-base text-sm leading-[160%]  pt-2">  Funding
                                     raised acquires Growth assets</p>
                             </div>
                             <div
                                 class="  w-[103px]  h-[138px] text-center px-2 sm:py-[15px] py-3 max-w-[160px] bg-white shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;] rounded-[5.2px]">
                                 <img class="mx-auto" src="./assets/images/svg/goal-icon.svg" alt="goal-icon">
-                                <p class="font-extrabold sm:text-base text-sm leading-[120%]  pt-2"> OHM
+                                <p class="font-extrabold sm:text-base text-sm leading-[160%]  pt-2"> OHM
                                     Treasury Strategy </p>
                                 <p class="font-normal text-sm leading-[120%] pt-1 railway_font"> Deposit + Earn</p>
                             </div>
                             <div
                                 class="  w-[103px]  h-[138px] text-center px-2 sm:py-[15px] py-3 max-w-[160px] bg-white shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;] rounded-[5.2px]">
                                 <img class="mx-auto" src="./assets/images/svg/market-icon.svg" alt="market">
-                                <p class="font-extrabold sm:text-base text-sm leading-[120%]  pt-2"> Markets
+                                <p class="font-extrabold sm:text-base text-sm leading-[160%]  pt-2"> Markets
                                 </p>
                                 <p class="font-normal text-sm leading-[120%] pt-1 railway_font"> Trade + Arb (Fees)</p>
                             </div>
@@ -563,7 +580,7 @@
                             <div
                                 class="  w-[103px]  h-[138px] text-center px-2 sm:py-[15px] py-3 max-w-[160px] bg-white shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;] rounded-[5.2px]">
                                 <img class="mx-auto" src="./assets/images/svg/growth-icon.svg" alt="growth-icon">
-                                <p class="font-extrabold sm:text-base text-sm leading-[120%] pt-2"> Yield
+                                <p class="font-extrabold sm:text-base text-sm leading-[160%] pt-2"> Yield
                                     From  Growth Assets</p>
                             </div>
                             <div
@@ -576,7 +593,7 @@
                         <div
                             class="mx-auto   mt-2 w-[103px] min-w-[100px] sm:h-[130px] h-[138px] text-center  px-2 sm:py-[15px] py-3 sm:max-w-[160px] max-w-[103px] bg-white shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;] rounded-[5.2px]">
                             <img class="mx-auto" src="./assets/images/svg/firebase.svg" alt="firebase">
-                            <p class="font-extrabold sm:text-base text-sm leading-[120%]  pt-2"> EEFI Furnace
+                            <p class="font-extrabold sm:text-base text-sm leading-[160%]  pt-2"> EEFI Furnace
                             </p>
                             <p class="font-normal text-sm leading-[120%] pt-1 railway_font"> Buy + Burn EEFI</p>
                         </div>
@@ -588,13 +605,13 @@
     <section class="footer_bg_img bg-cover bg-no-repeat max-lg:hidden">
       <div class="container">
        
-        <div class="flex">
+        <div class="flex max-2xl:py-12 py-14 max-lg:py-8 max-md:py-6 max-sm:py-4">
           <div class="w-6/12 max-md:w-full mt-52 max-2xl:mt-48 max-xl:mt-40 max-md:mt-32 max-sm:mt-12 max-lg:hidden pb-24" >
             <h2 class="font-extrabold text-5xl text-white leading-[120%] max-md:text-[35px] max-sm:text-[25px] pb-11 px-3 max-w-[572px]">(E,E) Game Theory: An UPGRADE from (3,3)</h2>
             <p class="leading-[160%] text-white text-base font-normal italic max-w-[515px] railway_font px-3">Remember (3,3) at its core was about social coordination. Or, people working together to achieve a common outcome or goal. (E,E) is the same. But with (E,E) people are working together not to grow a robust treasury that would back a decentralized stablecoin but instead to establish the first ever decentralized amplified yield token… $EEFI. A token that can produce yield in any market condition.</p>
-            <p class="leading-[160%] text-white text-base font-normal italic max-w-[502px] pt-5 railway_font px-3">To achieve this (E,E) has everyone work together by interacting with and supporting its ecosystem flywheel: Vaults, Bonds, Markets and other components. Interaction with the (E,E) Flywheel will help build a treasury of what we term high quality “growth assets”. Assets that are revenue bearing, interest bearing, Real Yield bearing or Rebase bearing. Where the ‘growth’ aka the yields of these assets are used to act as long term decentralized leverage on EEFI’s value. This is (E,E). This is sustainable. This is the UPGRADE.</p>
+            <p class="leading-[160%] text-white text-base font-normal italic max-w-[502px] pt-2 railway_font px-3">To achieve this (E,E) has everyone work together by interacting with and supporting its ecosystem flywheel: Vaults, Bonds, Markets and other components. Interaction with the (E,E) Flywheel will help build a treasury of what we term high quality “growth assets”. Assets that are revenue bearing, interest bearing, Real Yield bearing or Rebase bearing. Where the ‘growth’ aka the yields of these assets are used to act as long term decentralized leverage on EEFI’s value. This is (E,E). This is sustainable. This is the UPGRADE.</p>
           </div>
-          <div class="w-6/12 max-lg:w-full max-lg:hidden py-16">
+          <div class="w-6/12 max-lg:w-full max-lg:hidden ">
           
             <div class="max-w-[530px] bg_last_line h-[815px] mx-auto relative max-lg:hidden bg-cover bg-no-repeat">
                 <div class="mt-16 max-w-[129px] bg-white rounded border-[0.64px] border-solid shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;] flex items-center justify-center p-2 mx-auto">
@@ -603,64 +620,64 @@
                 <p class="text-white font-normal text-sm pt-2 railway_font">(Flywheel)</p>
               </div>
             </div>
-            <p class="text-white text-center ps-24 font-extrabold text-sm railway_font">Interact</p>
+            <p class="text-white text-center ps-16 font-extrabold text-sm railway_font translate-y-1 max-xl:ps-24">Interact</p>
            
             <!-- ----first-row--- -->
-              <div class="flex gap-[33.6px] max-xl:gap-[16px]  absolute top-40">
-                <div class="bg-white max-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md  shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]">
+              <div class="flex gap-[26.6px] max-xl:gap-[16px]  absolute top-40">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md  shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]">
                   <img src="/assets/images/svg/eefi-bond.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-6">EEFI Bonds</p>
-                  <p class="pt-1 text-center pb-1 px-3 railway_font"> Purchase. Lock up. Get Discount</p>
+                  <p class="pt-2 text-center font-extrabold text-base px-6 leading-[160%]">EEFI Bonds</p>
+                  <p class="pt-1 text-center pb-1 px-3 railway_font leading-[120%]"> Purchase. Lock up. Get Discount</p>
                 </div>
-                <div class="bg-white max-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]">
                   <img src="/assets/images/svg/lock.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-[52px]">Vault  </p>
-                  <p class="pt-1 text-center pb-1 px-[34] railway_font"> Deposit + Earn</p>
+                  <p class="pt-2 text-center font-extrabold text-base px-[52px] leading-[160%]">Vault  </p>
+                  <p class="pt-1 text-center pb-1 px-[34] railway_font leading-[120%]"> Deposit + Earn</p>
                 </div>
-                <div class="bg-white max-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md ms-3 shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]">
+                <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md  shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]">
                   <img src="/assets/images/svg/copy-icon.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-6">LP Positions </p>
-                  <p class="pt-1 text-center pb-1 px-3 railway_font"> Yield Farming</p>
+                  <p class="pt-2 text-center font-extrabold text-base px-6 leading-[160%]">LP Positions </p>
+                  <p class="pt-1 text-center pb-1 px-3 railway_font leading-[120%]"> Yield Farming</p>
                 </div>
               </div>
               <!-- second-row -->
-                <div class="flex gap-[33.6px] max-xl:gap-[16px] absolute top-80">
-                <div class="bg-white w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]   rounded-md">
+                <div class="flex gap-[26.6px] max-xl:gap-[16px] absolute top-80">
+                <div class="bg-white min-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]   rounded-md">
                   <img src="/assets/images/svg/fundeing-icon.svg" alt="fundeing-icon" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-2 max-w-[144px] pb-4 railway_font">Funding raised acquires Growth assets</p>
+                  <p class="pt-2 text-center font-extrabold text-base px-2 max-w-[144px] pb-4 railway_font leading-[160%]">Funding raised acquires Growth assets</p>
                  
                 </div>
-                <div class="bg-white max-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md">
+                <div class="bg-white min-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/goal-icon.svg" alt="goal" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-[11px]">OHM Treasury Strategy </p>
-                  <p class="pt-1 text-center pb-1 px-[34] railway_font"> Deposit + Earn</p>
+                  <p class="pt-2 text-center font-extrabold text-base px-[11px] leading-[160%]">OHM Treasury Strategy </p>
+                  <p class="pt-1 text-center pb-1 px-[34] railway_font leading-[120%]"> Deposit + Earn</p>
                 </div>
-                <div class="bg-white max-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md ms-3">
+                <div class="bg-white min-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md ">
                   <img src="/assets/images/svg/market-icon.svg" alt="market" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-6">Markets </p>
-                  <p class="pt-1 text-center pb-1 px-3 railway_font">Trade + Arb (Fees)</p>
+                  <p class="pt-2 text-center font-extrabold text-base px-6  leading-[160%]">Markets </p>
+                  <p class="pt-1 text-center pb-1 px-3 railway_font leading-[120%]">Trade + Arb (Fees)</p>
                 </div>
               </div>
               <!-- third-row -->
                 <div class="flex gap-9 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] mt-[161px] -ms-[5px] max-xl:ms-5">
-                <div class="bg-white w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md">
+                <div class="bg-white min-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/growth-icon.svg" alt="growth" class="max-w-full mx-auto pt-[18px] ">
-                  <p class="pt-4 text-center font-extrabold text-base px-[10px] pb-4 max-w-[122px] mx-auto">Yield From  Growth Assets</p>
+                  <p class="pt-4 text-center font-extrabold text-base px-[10px] pb-4 max-w-[122px] mx-auto leading-[160%]">Yield From  Growth Assets</p>
                   
                 </div>
-                <div class="bg-white w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md">
+                <div class="bg-white min-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/shield-icon.svg" alt="shield" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-4 pb-4">Fees. Revenue. Yield to Treasury</p>
+                  <p class="pt-2 text-center font-extrabold text-base px-4 pb-4 leading-[160%]">Fees. Revenue. Yield to Treasury</p>
                 
                 </div>
                
               </div>
               <!-- fourth-box -->
                 <div class="flex gap-6 absolute bottom-0 left-[180px]">
-                <div class="bg-white w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md">
+                <div class="bg-white min-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/firebase.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-4">EEFI Furnace </p>
-                  <p class="pt-1 text-center pb-9 px-[11px] railway_font"> Buy + Burn EEFI</p>
+                  <p class="pt-2 text-center font-extrabold text-base px-4 leading-[160%]">EEFI Furnace </p>
+                  <p class="pt-1 text-center pb-9 px-[11px] railway_font leading-[120%]"> Buy + Burn EEFI</p>
                 </div>
                
               </div>
