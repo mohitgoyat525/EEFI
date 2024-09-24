@@ -39,3 +39,6 @@ body {
 .bg-cloud{
   background-image: url(/assets/images/webp/Clouds\ bottom.webp);
 }
+.text_shadow{
+  text-shadow: 2px 2px 4px #000000 !important;
+}
