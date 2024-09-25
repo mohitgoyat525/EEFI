@@ -22,16 +22,13 @@ body {
       font-family: "Raleway", sans-serif;
 }
 .bg_time-line-img{
-    background-image: url(/assets/images/webp/roadmap-linnear-bg.webp);
-   
+    background-image: url(/assets/images/webp/roadmap-linnear-bg.webp);  
 }
 .footer_bg_img{
       background-image: url(/assets/images/webp/foot-bg-img.webp);
 }
-
 .bg_last_line{
   background-image: url(/assets/images/webp/laset-bg-img.webp);
-
 }
 .sm_screen_bg_img{
   background-image: url(/assets/images/webp/bg-mobile-version.webp);

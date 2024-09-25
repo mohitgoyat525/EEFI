@@ -1,4 +1,4 @@
-
+// Navbar
 const navmenu = () => {
   document.getElementById("mobile_view").classList.toggle("max-lg:top-0");
   document.getElementById("mobile_view").classList.toggle("max-lg:left-0");
