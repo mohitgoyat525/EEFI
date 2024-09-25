@@ -64,17 +64,17 @@
       <img
         src="/assets/images/webp/bg-shadow.webp"
         alt="shadow"
-        class="relative z-30  max-2xl:max-w-[1140px] max-xl:max-w-[1050px] "
+        class="relative z-30  max-2xl:max-w-[1140px] max-xl:max-w-[1050px] pointer-events-none "
       />
       </div>
       <header>
         <div class="container">
-          <nav class="pt-5">
+          <nav class="pt-5 max-sm:pt-1">
             <div class="max-w-[1114px] relative z-50 mx-auto">
               <div class="justify-between flex items-center">
                 <div>
                   <a href="/">
-                    <img
+                    <img class="pointer-events-none"
                       src="./assets/images/svg/eeProtocol-transparent-(light-stroke).svg"
                       alt="Logo"
                     />
@@ -82,7 +82,7 @@
                 </div>
                 <div
                   onclick="navmenu()"
-                  class="lg:hidden cursor-pointer overflow-hidden z-10 w-6 h-5 flex flex-col justify-between mr-3"
+                  class="lg:hidden cursor-pointer overflow-hidden z-10 w-8 h-6 flex flex-col justify-between mr-3"
                 >
                   <span
                     id="nav_line_1"
@@ -150,7 +150,7 @@
                                     <a class="flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0  after:h-0.5 after:bg-white pb-0.5 text-white "
                                         href="#more">
                                         More
-                                        <img class="mt-1" src="./assets/images/svg/drop-down-icon.svg"
+                                        <img class="mt-1 pointer-events-none" src="./assets/images/svg/drop-down-icon.svg"
                                             alt="DropDown_hero" />
                                     </a>
                                     <ul class="absolute left-0 hidden group-hover:block bg-black text-white w-[126px]">
@@ -182,10 +182,10 @@
         </div>
       </header>
       
-      <img src="/assets/images/webp/spaceman-collage-.bg.webp" alt="Spaceman_bg " class="absolute right-0 -z-20  max-lg:hidden">
+      <img src="/assets/images/webp/spaceman-collage-.bg.webp" alt="Spaceman_bg " class="absolute right-0 -z-20  max-lg:hidden pointer-events-none">
     <div class="max-w-[1140px] relative z-30 mx-auto">
             <div class="flex flex-wrap ">
-                <div class="w-6/12 max-lg:w-full flex flex-col justify-center max-2xl:pb-32 pb-44">
+                <div class="w-6/12 max-lg:w-full flex flex-col justify-center max-2xl:pb-32 pb-44  max-sm:pb-0">
                    
                     <h1 class="max-w-[428px] text-[85px] max-lg:text-7xl max-md:text-6xl max-sm:text-5xl  leading-[112%] ffNeueMachinaRegular text-white max-lg:px-4 px-4 max-lg:pt-6">
                         BUILIDING ELASTIC PROTOCOL
@@ -200,28 +200,29 @@
                     </div>
                 </div>
                 <div class="w-6/12 max-lg:w-full ">
-                    <img class="w-full max-xl:w-[560px] ms-auto" src="./assets/images/webp/hero_img.webp" alt="space_man" />
+                    <img class="w-full max-xl:w-[560px] ms-auto pointer-events-none" src="./assets/images/webp/hero_img.webp" alt="space_man" />
                 </div>
             </div>
         </div>
         <div class="max-xl:hidden ">
-          <img src="/assets/images/svg/dots-group.svg" alt="dots" class="absolute top-11 right-7">
+          <img src="/assets/images/svg/dots-group.svg" alt="dots" class="absolute top-11 right-7 pointer-events-none">
         </div>
     </section>
     <!-- ---bear-bull section -->
     <section id="bear_bull"  class="pb-16 max-sm:pb-0 relative -mb-36 bear_bull overflow-hidden  bg-cover bg-no-repeat">
       <div class="bg-black">
-      <h2 class=" relative z-10 text-white plus_jhatkasans text-center max-2xl:text-[52px] max-lg:text-[45px] max-sm:text-[23px] text-[52px] font-extrabold leading-[120%] max-lg:py-6 max-md:py-1 max-md:pt-3 py-4 pt-8">Amplify and STRETCH GAINS</h2>
+      <h2 class=" relative z-10 text-white plus_jhatkasans text-center max-2xl:text-[52px] max-lg:text-[45px] max-sm:text-[23px] text-[52px] font-extrabold leading-[120%] max-lg:py-6 max-md:py-1 max-md:pt-3 py-4 pt-8 pb-4">Amplify and STRETCH GAINS</h2>
       </div>
       <div class="container">
-      <div class="flex max-2xl:pt-10 pt-80 max-md:relative max-md:bottom-[-80px]">
+        <p class="md:hidden text-center text-white max-w-[555px] text-sm font-normal leading-[157%] mx-auto relative pb-4 text_shadow top-12">We take a different balanced approach to finding and creating yield opportunities in the everchanging crypto market. Our yield strategies help users stay protected and hedged during bear markets and amplify yield during bull markets without resorting to leverage or other dangerous techniques.</p>
+      <div class="flex max-2xl:pt-10 pt-80 max-md:relative max-md:bottom-[-5px]">
       <div class="max-w-[649px] bull_img max-lg:-mt-[54px] max-md:mt-6  md:mt-[12px]"  data-aos="fade-right"  data-aos-easing="linear"
      data-aos-duration="1500">
-        <img src="/assets/images/webp/bull-img.webp" alt="bull" >
+        <img src="/assets/images/webp/bull-img.webp" alt="bull" class="pointer-events-none">
       </div>
        <div class="max-w-[532px] max-2xl:mt-7 mt-7  max-md:mt-11 bear_img" data-aos="fade-left"  data-aos-easing="linear"
      data-aos-duration="1500">
-        <img src="/assets/images/webp/bear.webp" alt="bear" >
+        <img src="/assets/images/webp/bear.webp" alt="bear" class="pointer-events-none" >
       </div>
       
     </div>
@@ -229,35 +230,35 @@
         <p class=" max-md:hidden text-center text-white max-w-[555px] text-sm font-normal leading-[157%] mx-auto pt-[85px] max-2xl:pt-[48px] text_shadow">We take a different balanced approach to finding and creating yield opportunities in the everchanging crypto market. Our yield strategies help users stay protected and hedged during bear markets and amplify yield during bull markets without resorting to leverage or other dangerous techniques.</p>
       </div>
   <div class="flex items-center justify-center ">
-      <img src="/assets/images/webp/boy-stand.webp" alt="space-man-stand" class="absolute bottom-12 max-md:bottom-28 max-sm:bottom-28  w-[100px] max-md:w-[60px] ">
+      <img src="/assets/images/webp/boy-stand.webp" alt="space-man-stand" class="absolute bottom-12 max-md:bottom-28 max-sm:bottom-8  w-[100px] max-md:w-[60px] pointer-events-none">
       </div>
 
       </div>
-      <p class="md:hidden text-center text-white max-w-[555px] text-sm font-normal leading-[157%] mx-auto relative pb-4 text_shadow">We take a different balanced approach to finding and creating yield opportunities in the everchanging crypto market. Our yield strategies help users stay protected and hedged during bear markets and amplify yield during bull markets without resorting to leverage or other dangerous techniques.</p>
+      
    
     </section>
     <!-- ---cloud---- -->
-    <section class="z-30  -mt-5  relative bg-transparent bg-cloud h-60 w-full bg-cover bg-no-repeat bg-center max-sm:hidden">
-    <img src="/assets/images/svg/Clouds bottom (1).svg" alt="cloud" class="w-full max-xl:hidden">
+    <section class="z-30  -mt-5  relative bg-transparent bg-cloud h-60 w-full bg-cover bg-no-repeat bg-center max-sm:hidden pointer-events-none">
+    <img src="/assets/images/svg/Clouds bottom (1).svg" alt="cloud" class="w-full max-xl:hidden pointer-events-none">
     </section>
     <!-- ---time-line-- -->
        <section id="time_line"  class=" pt-36 -mt-40 bg_time-line-img bg-cover bg-center bg-no-repeat  pb-12 flex items-center max-md:justify-normal justify-center overflow-hidden">
-        <div class="container text-white px-3 pb-16">
-            <h2 class="text-center text-[46px] font-bold max-2xl:mb-[117px] max-lg:mb-16 max-md:mb-8 max-sm:mb-4 pt-10 max-sm:pt-5">Roadmap</h2>
+        <div class="container text-white px-3 pb-16 max-sm:pb-0">
+            <h2 class="text-center text-[46px] font-bold   max-2xl:py-10 max-md:py-5 max-sm:py-4 py-20  max-sm:pt-9 max-sm:text-[34px]">Roadmap</h2>
             <div class="w-full flex flex-wrap justify-between relative gap-y-6 pb-9">
-                <div class="h-full w-[2px]  bg-[#4273FF] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2 top-2">
+                <div class="h-[98.6%] w-[2px]  bg-[#4273FF] absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2 top-2">
                 </div>
                 <div class="lg:w-6/12 w-full">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div data-aos="zoom-in-right"  class="max-w-[373px] bg-[#1643C31A] ms-auto me-[90px] border border-[#1643C3] rounded-lg py-9 px-4 max-[390px]:mx-4 max-lg:mx-auto">
+                    <div data-aos="zoom-in-right"  class="max-w-[373px] bg-[#1643C31A] ms-auto me-[90px] border border-[#1643C3] rounded-lg py-9 px-4 max-[390px]:ml-12 max-[390px]:mr-8 max-lg:mx-auto">
                         
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">2022</p>
-                        <ul class="list-disc pl-5 text-base font-normal railway_font leading-[150%] pt-3">
+                        <ul class="list-disc pl-6 text-base font-normal railway_font leading-[150%] pt-3 ">
                             <li class="pt-1">Ideation of Elastic Protocol </li>
                             <li class="ml-5 pt-1">Elastic Protocol GitBook </li>
                             <li class="ml-5 pt-1">Full Code development of Elastic Vault Strategy </li>
@@ -271,13 +272,13 @@
                 <div class="lg:w-6/12 w-full lg:-mt-[33px]">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div data-aos="zoom-in-left"  class="py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3]  rounded-lg mr-auto ml-[90px]  max-[390px]:mx-4  max-lg:mx-auto">
+                    <div data-aos="zoom-in-left"  class="py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3]  rounded-lg mr-auto ml-[90px]  max-[390px]:ml-12 max-[390px]:mr-8  max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">2023 Beginning</p>
-                        <ul class="list-disc ml-5 text-base font-normal railway_font leading-[150%] pt-3">
+                        <ul class="list-disc ml-6 text-base font-normal railway_font leading-[150%] pt-3">
                             <li class="pt-1">Olympus Partnership Beginning</li>
                             <li class="ml-5 pt-1">$25k Grant 2023 </li>
                             <li class="ml-5 pt-1">$150k Total seeded Liquidity sought from Olympus DAO</li>
@@ -289,13 +290,13 @@
                 <div class="lg:w-6/12 w-full lg:-mt-[36px]">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div data-aos="zoom-in-right"  class="py-9 px-4 bg-[#1643C31A] max-w-[373px] border border-[#1643C3] rounded-lg ms-auto me-[90px]  max-[390px]:mx-4  max-lg:mx-auto">
+                    <div data-aos="zoom-in-right"  class="py-9 px-4 bg-[#1643C31A] max-w-[373px] border border-[#1643C3] rounded-lg ms-auto me-[90px]  max-[390px]:ml-12 max-[390px]:mr-8  max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">Q3 2023</p>
-                        <ul class="list-disc ml-5 text-base font-normal railway_font leading-[150%] pt-3 ">
+                        <ul class="list-disc ml-6 text-base font-normal railway_font leading-[150%] pt-3 ">
                             <li class="pt-1">Partner launched KOLs Marketing Campaign | Rally larger community base </li>
                             <li class="pt-1">Balancer $EEFI Pools launch </li>
                             <li class="pt-1">Launch of Elastic Vault Strategy (flagship) + $EEFI</li>
@@ -308,13 +309,13 @@
                 <div class="lg:w-6/12 w-full lg:-mt-[34px]">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div data-aos="zoom-in-left"  class="mr-auto ml-[90px] py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] rounded-lg max-[390px]:mx-4  max-lg:mx-auto">
+                    <div data-aos="zoom-in-left"  class="mr-auto ml-[90px] py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] rounded-lg max-[390px]:ml-12 max-[390px]:mr-8  max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">Q4 2023</p>
-                        <ul class="list-disc pl-5 text-base font-normal  railway_font leading-[150%] pt-3">
+                        <ul class="list-disc pl-6 text-base font-normal  railway_font leading-[150%] pt-3 ">
                             <li class="pt-1">Front End upgrade </li>
                             <li class="pt-1">INO [Initial NFT Offering]: Social Elastic NFT campaign </li>
                             <li class="pt-2">Initial Olympus econOHMy Vaults: </li>
@@ -330,13 +331,13 @@
                 <div class="lg:w-6/12 w-full lg:-mt-[55px]">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div data-aos="zoom-in-right"  class="ms-auto me-[90px] py-9 px-4 bg-[#1643C31A] max-w-[373px] border border-[#1643C3] rounded-lg max-[390px]:mx-4  max-lg:mx-auto">
+                    <div data-aos="zoom-in-right"  class="ms-auto me-[90px] py-9 px-4 bg-[#1643C31A] max-w-[373px] border border-[#1643C3] rounded-lg max-[390px]:ml-12 max-[390px]:mr-8  max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">Q1 2024</p>
-                        <ul class="list-disc pl-5 text-base font-normal railway_font leading-[150%] pt-3 ">
+                        <ul class="list-disc pl-6 text-base font-normal railway_font leading-[150%] pt-3 ">
                             <li class="pt-1">Elastic Research and Development: Explore additional vault strategies and develop risk
                                 and
                                 due-diligence procedures associated with strategy development and implementation </li>
@@ -355,13 +356,13 @@
                 <div class="lg:w-6/12 w-full lg:-mt-[34px]">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div data-aos="zoom-in-left"  class="max-w-[373px] bg-[#1643C31A] border border-[#1643C3] rounded-lg py-9 px-4 mr-auto ml-[90px] max-[390px]:mx-4  max-lg:mx-auto">
+                    <div data-aos="zoom-in-left"  class="max-w-[373px] bg-[#1643C31A] border border-[#1643C3] rounded-lg py-9 px-4 mr-auto ml-[90px] max-[390px]:ml-12 max-[390px]:mr-8  max-lg:mx-auto">
                         <p class="text-xl font-medium  plus_jhatkasans leading-[120%]">Q2 2024</p>
-                        <ul class="list-disc pl-5 text-base font-normal railway_font leading-[150%] pt-3">
+                        <ul class="list-disc pl-6 text-base font-normal railway_font leading-[150%] pt-3 ">
                             <li class="pt-1">Gearbox | OHM [Perp-Leverage] Vault</li>
                             <li class="pt-1">Bond Protocol (Bonding) Vault</li>
                             <li class="pt-1">Future Strategy (vote): Real Yield GMX | GPL Vault</li>
@@ -374,13 +375,13 @@
                 <div class="lg:w-6/12 w-full lg:-mt-[60px]">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div data-aos="zoom-in-right"  class="ms-auto me-[90px] py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] rounded-lg  max-[390px]:mx-4  max-lg:mx-auto">
+                    <div data-aos="zoom-in-right"  class="ms-auto me-[90px] py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] rounded-lg  max-[390px]:ml-12 max-[390px]:mr-8  max-lg:mx-auto">
                         <p class="text-xl font-medium  plus_jhatkasans leading-[120%]">Q3 2024</p>
-                        <ul class="list-disc pl-5 text-base font-normal railway_font leading-[150%] pt-3">
+                        <ul class="list-disc pl-6 text-base font-normal railway_font leading-[150%] pt-3 ">
                             <li class="pt-1">Establish DAO to govern Elastic Finance and fully decentralize protocol</li>
                             <li class="pt-1">Elastic Yield Alliance (Strategic Yield Strategy Partners): begin governance vote for
                                 Multi-chain yield strategies</li>
@@ -392,13 +393,13 @@
                 <div class="lg:w-6/12 w-full lg:-mt-[32px]">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div data-aos="zoom-in-left" class="py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] mr-auto ml-[90px] rounded-lg max-[390px]:mx-4 max-lg:mx-auto">
+                    <div data-aos="zoom-in-left" class="py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] mr-auto ml-[90px] rounded-lg max-[390px]:ml-12 max-[390px]:mr-8 max-lg:mx-auto">
                         <p class="text-xl font-medium plus_jhatkasans leading-[120%]">Q4 2024</p>
-                        <ul class="list-disc pl-5 text-base font-normal railway_font leading-[150%] pt-3">
+                        <ul class="list-disc pl-6 text-base font-normal railway_font leading-[150%] pt-3 ">
                             <li class="pt-1">Community voted Yield Strategy 1 (governance)</li>
                             <li class="pt-1">$EEFI Borrowing and Lending Partnership</li>
                         </ul>
@@ -407,13 +408,13 @@
                 <div class="lg:w-6/12 w-full lg:-mt-[36px]">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[47%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div  data-aos="zoom-in-right" class="py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] ms-auto me-[90px] rounded-lg max-[390px]:mx-4 max-lg:mx-auto">
+                    <div  data-aos="zoom-in-right" class="py-9 px-4 max-w-[373px] bg-[#1643C31A] border border-[#1643C3] ms-auto me-[90px] rounded-lg max-[390px]:ml-12 max-[390px]:mr-8 max-lg:mx-auto">
                         <p class="text-xl font-medium  plus_jhatkasans leading-[120%]">Q1 2025</p>
-                        <ul class="list-disc pl-5 text-base font-normal railway_font leading-[150%] pt-3">
+                        <ul class="list-disc pl-6 text-base font-normal railway_font leading-[150%] pt-3">
                             <li class="pt-1">Community voted Yield Strategy 2 (governance)</li>
                             <li class="pt-1">Olympus RBS-OHM Real Yield Vault (strategy) </li>
                             <li class="pt-1">Launch EFT governance token Airdrop</li>
@@ -425,13 +426,13 @@
                 <div class="lg:w-6/12 w-full lg:-mt-[40px]">
                     <div
                         class=" absolute lg:left-1/2 sm:left-10 transform -translate-x-1/2">
-                        <img src="/assets/images/svg/timeline-point.svg" alt="point">
+                        <img src="/assets/images/svg/timeline-point.svg" alt="point" class="pointer-events-none">
                     </div>
-                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2"
+                    <img class="absolute lg:left-[53%] mt-3 sm:left-[75px] max-sm:hidden transform -translate-x-1/2 pointer-events-none"
                         src="./assets/images/png/three-lines.png" alt="three-lines">
-                    <div data-aos="zoom-in-left"  class="py-9 px-4 border border-[#1643C3] max-w-[373px] rounded-lg bg-[#1643C31A] mr-auto ml-[90px] max-[390px]:mx-4 max-lg:mx-auto">
+                    <div data-aos="zoom-in-left"  class="py-9 px-4 border border-[#1643C3] max-w-[373px] rounded-lg bg-[#1643C31A] mr-auto ml-[90px] max-[390px]:ml-12 max-[390px]:mr-8 max-lg:mx-auto">
                         <p class="text-xl font-medium  plus_jhatkasans leading-[120%]">Q2 2025</p>
-                        <ul class="list-disc pl-5 text-base font-normal railway_font leading-[150%] pt-3">
+                        <ul class="list-disc pl-6 text-base font-normal railway_font leading-[150%] pt-3 ">
                             <li class="pt-1">Hand over Elastic Finance DAO to Community: Complete decentralization of Elastic Finance
                                 DAO, its treasury, its yield strategies and community governance</li>
                         </ul>
@@ -441,7 +442,7 @@
         </div>
     </section>
     <!-- --footer-section--- -->
-    <section id="more" class="lg:hidden bg-cover bg-no-repeat sm_screen_bg_img py-7">
+    <section id="more" class="lg:hidden bg-cover bg-no-repeat sm_screen_bg_img py-7 -mt-1">
        <div class="lg:hidden">
           <p class="text-3xl font-extrabold text-white leading-[120%] px-4 pt-8">(E,E) Game Theory: An UPGRADE from (3,3)</p>
           <p class="text-white  leading-[160%] italic text-base font-normal pt-6 px-4">Remember (3,3) at its core was about social coordination. Or, people working together to achieve a common outcome or goal. (E,E) is the same. But with (E,E) people are working together not to grow a robust treasury that would back a decentralized stablecoin but instead to establish the first ever decentralized amplified yield token… $EEFI. A token that can produce yield in any market condition.</p>
@@ -456,12 +457,12 @@
               </div>
                
             </div> 
-             <p class="text-white text-center ps-24 font-extrabold text-sm railway_font relative top-[-7px]">Interact</p>
+             <p class="text-white text-center ps-16 font-extrabold text-sm railway_font relative top-[-7px]">Interact</p>
               <div class="flex gap-[24.6px]   absolute top-40">
                 <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md -ml-5">
                   <img src="/assets/images/svg/eefi-bond.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
                   <p class="pt-2 text-center font-extrabold text-base px-6">EEFI Bonds</p>
-                  <p class="pt-1 text-center pb-1 px-3 railway_font"> Purchase. Lock up. Get Discount</p>
+                  <p class="pt-1 text-center pb-4 px-3 railway_font "> Purchase. Lock up. Get Discount</p>
                 </div>
                 <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md">
                   <img src="/assets/images/svg/lock.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
@@ -602,14 +603,14 @@
          </div>
 
     </section>
-    <section id="more"  class="footer_bg_img bg-cover bg-no-repeat max-lg:hidden ">
+    <section id="more"  class="footer_bg_img bg-cover bg-no-repeat max-lg:hidden -mt-1">
       <div class="container">
        
         <div class="flex max-2xl:py-16 py-14 max-lg:py-8 max-md:py-6 max-sm:py-4">
           <div class="w-6/12 max-md:w-full mt-52 max-2xl:mt-48 max-xl:mt-40 max-md:mt-32 max-sm:mt-12 max-lg:hidden pb-24" >
-            <h2 class="font-extrabold text-5xl text-white leading-[120%] max-md:text-[35px] max-sm:text-[25px] pb-11 px-3 max-w-[572px]">(E,E) Game Theory: An UPGRADE from (3,3)</h2>
-            <p class="leading-[160%] text-white text-base font-normal italic max-w-[515px] railway_font px-3">Remember (3,3) at its core was about social coordination. Or, people working together to achieve a common outcome or goal. (E,E) is the same. But with (E,E) people are working together not to grow a robust treasury that would back a decentralized stablecoin but instead to establish the first ever decentralized amplified yield token… $EEFI. A token that can produce yield in any market condition.</p>
-            <p class="leading-[160%] text-white text-base font-normal italic max-w-[502px] pt-2 railway_font px-3">To achieve this (E,E) has everyone work together by interacting with and supporting its ecosystem flywheel: Vaults, Bonds, Markets and other components. Interaction with the (E,E) Flywheel will help build a treasury of what we term high quality “growth assets”. Assets that are revenue bearing, interest bearing, Real Yield bearing or Rebase bearing. Where the ‘growth’ aka the yields of these assets are used to act as long term decentralized leverage on EEFI’s value. This is (E,E). This is sustainable. This is the UPGRADE.</p>
+            <h2 class="font-extrabold text-5xl text-white leading-[120%] max-md:text-[35px] max-sm:text-[25px] pb-11 pr-3 max-w-[572px]">(E,E) Game Theory: An UPGRADE from (3,3)</h2>
+            <p class="leading-[160%] text-white text-base font-normal italic max-w-[515px] railway_font pr-3">Remember (3,3) at its core was about social coordination. Or, people working together to achieve a common outcome or goal. (E,E) is the same. But with (E,E) people are working together not to grow a robust treasury that would back a decentralized stablecoin but instead to establish the first ever decentralized amplified yield token… $EEFI. A token that can produce yield in any market condition.</p>
+            <p class="leading-[160%] text-white text-base font-normal italic max-w-[502px] pt-2 railway_font pr-3">To achieve this (E,E) has everyone work together by interacting with and supporting its ecosystem flywheel: Vaults, Bonds, Markets and other components. Interaction with the (E,E) Flywheel will help build a treasury of what we term high quality “growth assets”. Assets that are revenue bearing, interest bearing, Real Yield bearing or Rebase bearing. Where the ‘growth’ aka the yields of these assets are used to act as long term decentralized leverage on EEFI’s value. This is (E,E). This is sustainable. This is the UPGRADE.</p>
           </div>
           <div class="w-6/12 max-lg:w-full max-lg:hidden py-12">
           
@@ -623,11 +624,11 @@
             <p class="text-white text-center ps-16 font-extrabold text-sm railway_font translate-y-1 max-xl:ps-24 relative top-[-7px]">Interact</p>
            
             <!-- ----first-row--- -->
-              <div class="flex gap-[26.6px] max-xl:gap-[16px]  absolute top-40">
+              <div class="flex gap-[26.6px] max-xl:gap-[13px]  absolute top-40">
                 <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md  shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]">
                   <img src="/assets/images/svg/eefi-bond.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
                   <p class="pt-2 text-center font-extrabold text-base px-6 leading-[160%]">EEFI Bonds</p>
-                  <p class="pt-1 text-center pb-1 px-3 railway_font leading-[120%]"> Purchase. Lock up. Get Discount</p>
+                  <p class="pt-1 text-center pb-5 px-3 railway_font leading-[120%]"> Purchase. Lock up. Get Discount</p>
                 </div>
                 <div class="bg-white min-w-[160px] drop-shadow-[4.33px]  16.55px 0px  rounded-md shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]">
                   <img src="/assets/images/svg/lock.svg" alt="bond" class="max-w-full mx-auto pt-4 ">
@@ -641,10 +642,10 @@
                 </div>
               </div>
               <!-- second-row -->
-                <div class="flex gap-[26.6px] max-xl:gap-[16px] absolute top-80">
+                <div class="flex gap-[26.6px] max-xl:gap-[13px] absolute top-80">
                 <div class="bg-white min-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]   rounded-md">
                   <img src="/assets/images/svg/fundeing-icon.svg" alt="fundeing-icon" class="max-w-full mx-auto pt-4 ">
-                  <p class="pt-2 text-center font-extrabold text-base px-2 max-w-[144px] pb-4 railway_font leading-[160%]">Funding raised acquires Growth assets</p>
+                  <p class="pt-2 text-center font-extrabold text-base px-2 max-w-[144px] pb-4 railway_font leading-[160%] mx-auto">Funding raised acquires Growth assets</p>
                  
                 </div>
                 <div class="bg-white min-w-[160px] shadow-[4.33px_4.33px_16.55px_0px_#FFFFFF42;]  16.55px 0px  rounded-md">
